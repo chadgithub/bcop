@@ -1,0 +1,109 @@
+body.login{
+	font-size: 14px;
+	background-color:rgb(196, 196, 196);
+}
+
+div.main{
+	background-color: rgb(77, 80, 90);
+	border: solid 1px rgba(0, 0, 0, 0.2);
+	width: auto;
+	padding: 35px;
+	top: 15%;
+	position: absolute;
+	left: 50%;
+	margin-left: -12.5%;
+	box-shadow: 6px 5px 10px rgba(0, 0, 0, 0.25);
+	border-radius: 7px;
+}
+
+div.username-text{
+	width:120px;
+	margin-top: 6px;
+}
+
+div.username-input{
+	width: 300px;
+	margin-top: 4px;
+}
+
+div.password-text{
+	width:120px;
+}
+
+div.password-input{
+	width: 300px;
+}
+
+div.key-text{
+	margin-top: 11px;
+	font-size: 16px;
+	margin-left: 12%;
+}
+
+div.key-pass{
+	margin-left: 14%;
+	margin-top: 5px;
+}
+
+input.username-text{
+	padding: 10px;
+	border: 1px rgba(0, 0, 0, 0.81) solid;
+	font-family: verdana;
+	font-size: 13px;
+	background-color: rgb(235, 235, 235);
+	outline:none;
+	width: 90%;
+	border-radius: 8px;
+	color: rgb(107, 107, 107);
+}
+
+input.password-text{
+	padding: 10px;
+	border: 1px rgba(0, 0, 0, 0.81) solid;
+	font-family: verdana;
+	font-size: 13px;
+	background-color: rgb(235, 235, 235);
+	outline:none;
+	width: 90%;
+	border-radius: 8px;
+	color: rgb(107, 107, 107);
+}
+
+input.key-pass{
+	padding: 15px;
+	border: 1px rgba(0, 0, 0, 0.81) solid;
+	font-family: verdana;
+	font-size: 15px;
+	text-align: center;
+	background-color: rgb(235, 235, 235);
+	outline: none;
+	border-radius: 8px;
+	color: rgb(107, 107, 107);
+}
+
+div.form-submit{
+	margin-top: 15px;
+}
+
+input.login-button{
+	border: 1px solid rgba(0, 0, 0, 0.7);
+	width: 100%;
+	height: 41px;
+	border-radius: 12px;
+	font-family: helvetica;
+	font-size: 15px;
+	color: rgb(255, 255, 255);
+	cursor: pointer;
+
+	background-color: rgb(81, 197, 128);
+	background-image: -ms-linear-gradient(bottom, #3EB63A 0%, #3AFF5A 100%);
+	background-image: -moz-linear-gradient(bottom, #3EB63A 0%, #3AFF5A 100%);
+	background-image: -o-linear-gradient(bottom, #3EB63A 0%, #3AFF5A 100%);
+	background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #3EB63A), color-stop(1, #3AFF5A));
+	background-image: -webkit-linear-gradient(bottom, #3EB63A 0%, #3AFF5A 100%);
+	background-image: linear-gradient(to top, #3EB63A 0%, #3AFF5A 100%);
+}
+
+input.login-button:hover{
+
+}
